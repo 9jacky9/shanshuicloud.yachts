@@ -1,62 +1,66 @@
 <!DOCTYPE html>
+
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mac 网络设置指南：位置、DNS 与代理的位置 - 山水云云客见闻</title>
-<meta name="description" content="在 Mac 上怎样查看与修改网络设置？介绍网络位置、DNS 服务器、代理设置与网络诊断工具的位置与常见用法。">
-    <link rel="stylesheet" href="style.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>云游戏延迟高怎么排查：区分网络往返、解码与显示拖影</title>
+<meta content="云游戏延迟高怎么排查：区分网络往返、解码与显示拖影，提供可执行的检查流程、场景实例和结果判断，帮助减少连接中断与重复操作。" name="description"/>
+<link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-    <div class="cloud-bg cloud-1"></div>
-    <div class="cloud-bg cloud-2"></div>
-    <div class="cloud-bg cloud-3"></div>
-
-    <div class="fluid-container">
-        <header class="navbar">
-            <a href="index.html" class="logo-wrap">
-                <svg class="logo-icon" viewBox="0 0 100 100">
-                    <path d="M20,80 L50,30 L80,80" fill="none" stroke="#87CEEB" stroke-width="4"/>
-                    <path d="M50,30 L50,80" fill="none" stroke="#E6E6FA" stroke-width="4"/>
-                    <path d="M10,70 Q20,60 30,70 Q40,55 50,70 Q60,60 70,70 Q80,55 90,70" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
-                    <path d="M10,70 Q20,60 30,70 Q40,55 50,70 Q60,60 70,70 Q80,55 90,70" fill="none" stroke="#87CEEB" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-                <span class="logo-text">山水云</span>
-            </a>
-            <nav class="yacht-menu">
-                <a href="index.html#features">连接性能</a>
-                <a href="index.html#media-ai">无界AI</a>
-                <a href="index.html#pricing">登云阶梯</a>
-                <a href="index.html#faq">微风解答</a>
-                <a href="index.html#testimonials">云客随想</a>
-                <a href="horizons.html">云客见闻</a>
-            </nav>
-            <a href="https://ww012.twilightaff.com/#/?code=A56DH1Af" rel="nofollow" target="_blank" class="btn-nav-yacht">开启体验</a>
-        </header>
-
-        <main class="article-body" style="max-width:800px; margin: 100px auto; padding: 0 20px; line-height: 1.8;">
-            <h1>Mac 网络设置指南：位置、DNS 与代理的位置</h1>
-<h2>一、找到网络设置</h2>
-<p>在系统设置的网络页面里，选择当前连接（Wi-Fi 或以太网），点击详细信息，可以看到 TCP/IP、DNS、代理等选项卡。</p>
-<h2>二、DNS 的设置</h2>
-<p>在 DNS 选项卡里添加或调整 DNS 服务器地址；使用代理客户端时，通常由客户端接管，不需要手动更改。</p>
-<h2>三、代理设置</h2>
-<p>代理选项卡可以设置网页代理、安全网页代理与 SOCKS 代理。多个软件同时修改时，容易互相覆盖。</p>
-<h2>四、常用工具</h2>
-<ul><li>无线诊断：查看信号、信道与干扰。</li><li>终端里的 ping 与 traceroute。</li><li>活动监视器的网络标签，查看各程序的流量。</li></ul>
-<h2>五、网络位置</h2>
-<p>在不同环境（家里、公司）使用不同的网络配置时，可以建立多个位置并一键切换。</p>
- </main>
-
-        <footer class="footer-cloud">
-            <div class="footer-links">
-                <a href="sitemap.html" target="_blank">网站地图</a>
-                <a href="about.html" target="_blank">关于我们</a>
-                <a href="terms.html" target="_blank">服务条款</a>
-                <a href="privacy.html" target="_blank">隐私政策</a>
-            </div>
-        </footer>
-    </div>
+<div class="cloud-bg cloud-1"></div>
+<div class="cloud-bg cloud-2"></div>
+<div class="cloud-bg cloud-3"></div>
+<div class="fluid-container">
+<header class="navbar">
+<a class="logo-wrap" href="index.html">
+<svg class="logo-icon" viewbox="0 0 100 100">
+<path d="M20,80 L50,30 L80,80" fill="none" stroke="#87CEEB" stroke-width="4"></path>
+<path d="M50,30 L50,80" fill="none" stroke="#E6E6FA" stroke-width="4"></path>
+<path d="M10,70 Q20,60 30,70 Q40,55 50,70 Q60,60 70,70 Q80,55 90,70" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-width="8"></path>
+<path d="M10,70 Q20,60 30,70 Q40,55 50,70 Q60,60 70,70 Q80,55 90,70" fill="none" stroke="#87CEEB" stroke-linecap="round" stroke-width="2"></path>
+</svg>
+<span class="logo-text">山水云</span>
+</a>
+<nav class="yacht-menu">
+<a href="index.html#features">连接性能</a>
+<a href="index.html#media-ai">无界AI</a>
+<a href="index.html#pricing">登云阶梯</a>
+<a href="index.html#faq">微风解答</a>
+<a href="index.html#testimonials">云客随想</a>
+<a href="horizons.html">云客见闻</a>
+</nav>
+<a class="btn-nav-yacht" href="https://ww012.twilightaff.com/#/?code=A56DH1Af" rel="nofollow" target="_blank">开启体验</a>
+</header>
+<main class="article-body" style="max-width:800px; margin: 100px auto; padding: 0 20px; line-height: 1.8;"><h1>云游戏延迟高怎么排查：区分网络往返、解码与显示拖影</h1><div data-swc-article-body="2026-11-16"><h2>看清楚输入到画面的完整链路</h2>
+<p>云游戏把游戏运算放在远端，玩家的按键先上传，服务器生成画面后再压缩传回，本地设备解码并显示。因此卡顿可能来自网络丢包，也可能来自解码负担、无线手柄或电视图像处理。普通下载很快并不能证明玩起来顺畅，游戏内角色的服务器延迟也不一定等于云游戏平台到你设备的延迟。</p>
+<p>测试前选择训练场或单人场景，固定人物、镜头和操作，避免影响其他玩家。记录当前分辨率、帧率、客户端类型和显示设备。每次只调整一项，至少重复同一段转向、跳跃和移动动作，才能把改善与操作差异区分开。</p>
+<h2>一、先确认服务本身的要求</h2>
+<p>查看正在使用的云游戏平台系统要求，核对当地服务覆盖、设备解码能力和当前账户允许的画质。以支持页面中的网络测试结果作为连接证据，不能把到任意网站的延迟套用到游戏服务器。平台支持的地区与游戏授权也要满足，连接工具不会改变这些前提。</p>
+<p>如果要比较<a href="https://dajichang.mom/">云游戏低延迟线路比较</a>中的服务候选，应把平台所在地区、晚间使用时段和是否支持所需传输方式列为问题，再用游戏内网络检测验证。名字带有游戏或专线，并不表示已经在你家网络上获得较低延迟，也不能保证所有游戏都会走同一路径。</p>
+<h2>二、建立可以重复的测试步骤</h2>
+<p>第一步，把电脑接到路由器有线端口，暂停下载与云备份。第二步，在云游戏客户端运行内置网络测试，保存带宽、往返延迟和丢包结果。第三步，进入固定训练场，开启客户端提供的统计信息，连续做缓慢转向与快速转向。第四步，用同一设备改回无线连接，重复动作并比较差异。</p>
+<p>若有线稳定、无线频繁跳帧，应先缩短无线距离或改善接入，不要立刻更换远端服务器。若两种接入都在固定时段恶化，而手机热点明显较好，则说明本地宽带到服务端的路径值得继续调查。比较过程中保持画质相同，否则降低分辨率带来的变化会被误认为换路效果。</p>
+<h2>三、根据画面表现选择分支</h2>
+<p>画面清晰但按键后总是慢半拍，优先看往返延迟与输入设备。短时间马赛克、声音断续后恢复，重点看丢包和带宽波动。画面呈现稳定的周期性顿挫，而网络统计正常，则检查解码和显示刷新率。不要把所有异常都叫作高延迟，否则调整方向会互相打架。</p>
+<p>例如转向时瞬间模糊，静止后又清晰，可能是编码器在当前码率下难以保留快速运动细节。先把分辨率降一级，保持帧率不变，看看模糊是否减少。如果变清晰但操作响应没有变化，说明改善主要来自码率压力，而不是网络往返时间缩短。</p>
+<h2>四、排除本地显示与解码问题</h2>
+<p>笔记本接电视时，先改用笔记本自带屏幕运行相同场景。若输入反馈明显更直接，检查电视是否有游戏模式，并关闭会增加画面处理时间的运动补偿功能。电视菜单名称因型号不同而异，但判断方法一致：一次改一个图像处理选项，再比较固定动作。</p>
+<p>同时打开系统任务管理器查看处理器和图形负载。如果解码相关负载持续很高，先降低画质或帧率，退出占用图形资源的其他程序。浏览器和原生客户端可能使用不同解码路径，可以在平台都支持的前提下交叉验证；不要通过安装来源不明的解码包解决一个尚未定位的问题。</p>
+<h2>五、让比较覆盖拥塞时段</h2>
+<p>白天测试通过后，在自己真正玩游戏的晚间再做一轮。填表时列出接入方式、服务区域、画质、延迟范围、丢包以及主观症状。平均值相近时，连续几次突刺也可能决定体验。五分钟短测能发现明显故障，但不能代表整晚，因此最终用一段正常游戏时长确认。</p>
+<p>如果网络测试提示带宽不足，优先降低码率或画质并排除家庭并发；提示延迟过高，则选择平台允许且更接近的服务区域进行验证。两者同时异常时，先恢复最基础的稳定连接，再追求高分辨率。调参目标是操作连续、声音同步和图像可辨，而不是让所有质量滑杆都处于最高位置。</p>
+<p>保存最终可用配置后，再逐项提高画质，找到开始恶化的边界。留一档余量通常比贴着峰值运行更适合多人共享的家庭网络。下次升级设备或换宽带，可以沿用同样场景重新比较，结果也更容易解释。</p>
+<p>无线手柄也可换成有线连接做一次对照。若网络统计完全相同，而操作反馈改善，就把输入链路列为独立问题处理。音频经过蓝牙设备时可能另有缓冲，先用有线耳机确认声音与画面的关系，避免仅凭听到的音效判断远端服务器响应速度。</p></div></main>
+<footer class="footer-cloud">
+<div class="footer-links">
+<a href="sitemap.html" target="_blank">网站地图</a>
+<a href="about.html" target="_blank">关于我们</a>
+<a href="terms.html" target="_blank">服务条款</a>
+<a href="privacy.html" target="_blank">隐私政策</a>
+</div>
+</footer>
+</div>
 </body>
 </html>
-
